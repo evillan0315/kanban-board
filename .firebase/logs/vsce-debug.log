@@ -210,3 +210,4 @@ I0306 01:19:41.390739   70787 dev.go:95] Listening on address (HTTP + gRPC): 127
 [debug] [2025-03-05T17:48:01.493Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
 [debug] [2025-03-05T17:48:01.967Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
 [debug] [2025-03-05T17:48:01.970Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2025-03-05T17:53:22.318Z] [Firebase Plugin] Received emulators shutdown notification.
