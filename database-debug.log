@@ -17,3 +17,9 @@ namespace fake-server, but the emulator is configured for kanban-fbebb,kanban-fb
 opt-out of single project mode add/set the singleProjectMode: false property in 
 the firebase.json emulators config. 
 09:44:31.907 [NamespaceSystem-akka.actor.default-dispatcher-9] INFO com.firebase.core.namespace.NamespaceActor - fake-server successfully activated FBKV (SurveyIdle(0)) wait: 9ms, init: 0ms
+10:38:44.217 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+10:38:44.375 [NamespaceSystem-akka.actor.default-dispatcher-259] INFO com.firebase.core.namespace.Terminator$Terminator - 3 actors left to terminate: kanban-fbebb-default-rtdb, fake-server, kanban-fbebb
+10:38:44.546 [NamespaceSystem-akka.actor.default-dispatcher-303] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for kanban-fbebb-default-rtdb
+10:38:44.547 [NamespaceSystem-akka.actor.default-dispatcher-308] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for kanban-fbebb
+10:38:44.546 [NamespaceSystem-akka.actor.default-dispatcher-309] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for fake-server
+10:38:44.642 [Thread-0] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.
